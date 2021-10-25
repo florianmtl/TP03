@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-fisrt-graph-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myFisrtGraphWebPart/MyFisrtGraphWebPartWebPart.js",
+          "manifest": "./src/webparts/myFisrtGraphWebPart/MyFisrtGraphWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyFisrtGraphWebPartWebPartStrings": "lib/webparts/myFisrtGraphWebPart/loc/{locale}.js"
+  }
+}
